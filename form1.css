@@ -1,0 +1,88 @@
+body{
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  background-image: url(mclaren.jpg);
+  background-size: cover;
+}
+
+.container{
+  background-color: #fff;
+  max-width: 700px;
+  margin: 90px auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dv-left, .dv-right{
+    width: 50%;
+}
+
+
+form{
+  position: relative;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+input{
+  margin-top: 10px;
+  padding-top: 10px;
+  border: none;
+}
+
+.inpt1-2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.dv-right .inpt1, .inpt2{
+  width: 45%; 
+  border-bottom: 1px solid black; 
+}
+
+.inpt3, .inpt4, .inpt5, .inpt6, .inpt7{
+  position: relative;
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid black; 
+}
+
+.inpt3 input, .inpt4 input, .inpt5 input, .inpt6 input, .inpt7 input{
+  width: 100%;
+}
+
+i{
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+legend{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  margin-top: 25px;
+  padding: 15px 15px;
+  background-color: black;
+  color: #fff;
+  width: 120px;
+  border: #000;
+}
+@media (max-width: 770px) {
+  .dv-left, .dv-right{
+    width: 100%;
+  }
+  
+}
